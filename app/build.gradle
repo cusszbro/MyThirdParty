@@ -13,6 +13,8 @@ android {
         targetSdk 33
         versionCode 1
         versionName "1.0"
+        buildConfigField("String", "BASE_URL", '"https://api.github.com/"')
+        buildConfigField("String", "KEY", '"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"')
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -32,6 +34,7 @@ android {
     }
 
     buildFeatures {
+        buildConfig true
         viewBinding true
     }
 }
