@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyThirdParty" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!--Typography-->
+        <item name="textAppearanceSubtitle1">
+            @style/TextAppearance.MyThirdPartyTheme.Subtitle1
+        </item>
+
+        <!--Shape-->
+        <item name="shapeAppearanceCircleImageView">
+            @style/ShapeAppearance.MyThirdPartyTheme.CircleImageView
+        </item>
+    </style>
+
+    <style name="Theme.MyThirdParty" parent="Base.Theme.MyThirdParty" />
+
+
+</resources>
